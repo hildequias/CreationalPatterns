@@ -12,6 +12,8 @@
 		793D618E1E93CF930075FDB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793D618C1E93CF930075FDB3 /* Main.storyboard */; };
 		793D61901E93CF930075FDB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 793D618F1E93CF930075FDB3 /* Assets.xcassets */; };
 		793D61931E93CF930075FDB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793D61911E93CF930075FDB3 /* LaunchScreen.storyboard */; };
+		793D619B1E93D13F0075FDB3 /* AbstractCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793D619A1E93D13F0075FDB3 /* AbstractCard.swift */; };
+		793D619D1E93D23E0075FDB3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793D619C1E93D23E0075FDB3 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		793D618F1E93CF930075FDB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		793D61921E93CF930075FDB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		793D61941E93CF930075FDB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		793D619A1E93D13F0075FDB3 /* AbstractCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractCard.swift; sourceTree = "<group>"; };
+		793D619C1E93D23E0075FDB3 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				793D618F1E93CF930075FDB3 /* Assets.xcassets */,
 				793D61911E93CF930075FDB3 /* LaunchScreen.storyboard */,
 				793D61941E93CF930075FDB3 /* Info.plist */,
+				793D619A1E93D13F0075FDB3 /* AbstractCard.swift */,
+				793D619C1E93D23E0075FDB3 /* Card.swift */,
 			);
 			path = CreationalPatterns;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				793D618B1E93CF920075FDB3 /* ViewController.swift in Sources */,
 				793D61891E93CF920075FDB3 /* AppDelegate.swift in Sources */,
+				793D619B1E93D13F0075FDB3 /* AbstractCard.swift in Sources */,
+				793D619D1E93D23E0075FDB3 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +312,7 @@
 				793D61991E93CF930075FDB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
